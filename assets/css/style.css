@@ -13,9 +13,13 @@ body {
   /* margin: 10px; */
 }
 
-.nav-link {
+.nav-item:active {
   color: red;
   font-size: 1em;
+}
+
+.nav-item:hover {
+  color: aqua;
 }
 
 #aboutMeContainer {
