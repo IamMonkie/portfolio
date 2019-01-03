@@ -45,12 +45,11 @@ a {
 }
 
 a:hover {
-  color: crimson;
+  color: white;
 }
 
 #sitesContainer {
   /* background: gray; */
-  color: purple;
   align-content: center;
   text-align: center;
   /* margin: 1em; */
@@ -90,7 +89,7 @@ a:hover {
   border-radius: 0.25em;
 }
 
-#gifyContainer {
+#giphyContainer {
   /* background: purple; */
   background-image: url("images/giphyPreview.png");
   height: 5em;
