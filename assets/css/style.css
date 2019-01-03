@@ -1,5 +1,5 @@
 @font-face {
-  src: url(/portfolio/assets/css/fonts/futura-lt-bt/FutuLt.ttf);
+  src: url(/assets/css/fonts/futura-lt-bt/FutuLt.ttf);
   font-family: futura;
 }
 
@@ -68,7 +68,7 @@ a:hover {
 
 #hangmanContainer {
   /* background: orange; */
-  background-image: url("assets/css/images/hangmanPreview.png");
+  background-image: url("/assets/css/images/hangmanPreview.png");
   height: 5em;
   width: 100%;
   align-content: center;
@@ -81,7 +81,7 @@ a:hover {
 
 #crystalContainer {
   /* background: dodgerblue; */
-  background-image: url("assets/css/images/crystalPreview.png");
+  background-image: url("/assets/css/images/crystalPreview.png");
   height: 5em;
   align-content: center;
   text-align: center;
@@ -92,7 +92,7 @@ a:hover {
 
 #gifyContainer {
   /* background: purple; */
-  background-image: url("assets/css/images/giphyPreview.png");
+  background-image: url("/assets/css/images/giphyPreview.png");
   height: 5em;
   align-content: center;
   text-align: center;
@@ -103,7 +103,7 @@ a:hover {
 
 #trainContainer {
   /* background: greenyellow; */
-  background-image: url("assets/css/images/trainPreview.png");
+  background-image: url("/assets/css/images/trainPreview.png");
   height: 5em;
   align-content: center;
   text-align: center;
@@ -114,7 +114,7 @@ a:hover {
 
 #beerstrologyContainer {
   /* background: yellow; */
-  background-image: url("assets/css/images/beerstrologyPreview.png");
+  background-image: url("/assets/css/images/beerstrologyPreview.png");
   height: 5em;
   align-content: center;
   text-align: center;
