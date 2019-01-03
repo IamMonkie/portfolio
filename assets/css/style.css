@@ -1,5 +1,10 @@
+@font-face {
+  src: url(/portfolio/assets/css/fonts/futura-lt-bt/FutuLt.ttf);
+  font-family: futura;
+}
+
 body {
-  /* font-family: Arial, Helvetica, sans-serif; */
+  font-family: futura;
 }
 
 /* Todd Williams */
@@ -117,7 +122,14 @@ a:hover {
   border: 0.125em solid rgb(182, 182, 182);
   border-radius: 0.25em;
 }
+#formContainer {
+  margin: 10px;
+}
 
 #linksContainer {
   margin: 10px;
+}
+
+.btn {
+  border-radius: 25px;
 }
