@@ -132,3 +132,7 @@ a:hover {
 .btn {
   border-radius: 25px;
 }
+
+#resumeButton {
+  margin: 10px;
+}

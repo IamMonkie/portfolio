@@ -28,17 +28,19 @@
     <!-- CSS -->
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+  <!-- ------------------------------------------------------------------------------------------------------------------------------------------------------------------ -->
+
   <body>
     <!-- navigation bar -->
     <nav
-      class="container-fluid-nav navbar navbar-default navbar-fixed-top navbar-expand-lg navbar-light bg-white"
+      class="container-fluid-nav navbar-fixed-top navbar-expand-lg navbar-light bg-white"
     >
       <button
         class="navbar-toggler"
         type="button"
         data-toggle="collapse"
-        data-target="#navbarTogglerDemo03"
-        aria-controls="navbarTogglerDemo03"
+        data-target="#navbarToggler"
+        aria-controls="navbarToggler"
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
@@ -46,7 +48,7 @@
       </button>
       <a class="navbar-brand" href="#">TODD WILLIAMS</a>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+      <div class="collapse navbar-collapse" id="navbarToggler">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 ">
           <li class="nav-item active">
             <a class="nav-link" href="#">
@@ -59,19 +61,7 @@
           <li class="nav-item">
             <a class="nav-link" href="#myWorkContainer">MY WORK</a>
           </li>
-          <!-- <li class="nav-item">
-            <a class="nav-link" class="text-center" href="#">HANGMAN GAME</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CRYSTAL COLLECTOR GAME</a>
-          </li>
-          <li class="nav-item"><a class="nav-link" href="#">GIFY API</a></li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">TRAIN SCHEDULER</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">BEERSTROLOGY GAME</a>
-          </li> -->
+
           <li class="nav-item">
             <a class="nav-link" href="#resumeContainer">RESUME</a>
           </li>
@@ -187,9 +177,14 @@
     <div id="resumeContainer">
       <h1>RESUME</h1>
       <br />
-        <a href="https://dl.dropboxusercontent.com/s/0khxr9tpkm3y6sr/resume_toddWilliams.pdf?dl=0" target="_blank">      <button type="button" class="btn btn-outline-dark btn-white">
-          <h3>DOWNLOAD RESUME</h3></button> </a>
-      </button>
+      <a
+        href="https://dl.dropboxusercontent.com/s/0khxr9tpkm3y6sr/resume_toddWilliams.pdf?dl=0"
+        target="_blank"
+        id="resumeButton"
+        ><button type="button" class="btn btn-outline-dark btn-white">
+          DOWNLOAD RESUME
+        </button>
+      </a>
     </div>
     <hr />
     <!-- Contact --------------------------------------------------------- -->
@@ -237,12 +232,14 @@
     <!-- Links --------------------------------------------------------- -->
     <div id="linksMainContainer">
       <h1>LINKS</h1>
-      <div class="container">
+      <div class="container" id="linksContainer">
         <div class="row">
           <div class="sm-column">
             <!-- Linkedin --------------------------------------------------------- -->
 
-            <a href="https://www.linkedin.com/in/todd-williams-20461121" target="_blank"
+            <a
+              href="https://www.linkedin.com/in/todd-williams-20461121"
+              target="_blank"
               ><img
                 src="assets/css/images/linkedin-icon.png"
                 alt="linkedin icon"
